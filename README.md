@@ -162,5 +162,3 @@ After submitting the PR, the TLDR maintainers will review your changes. They may
 
 - **TLDR Contributing Guidelines**: Follow the official [contributing guide](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md).
 - **Using TLDR Lint**: [TLDR Lint](https://github.com/tldr-pages/tldr-lint) helps ensure that pages meet formatting requirements.
-
-By following these steps, you can contribute effectively to TLDR, helping simplify command-line documentation for everyone! Let me know if you need further clarification.
