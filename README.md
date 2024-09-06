@@ -1,12 +1,8 @@
-Here is a **full documentation** on how to submit a PR (pull request) to TLDR, including checking off the checklist items and ensuring the PR follows all the guidelines.
-
----
-
-## **How to Contribute to TLDR Pages**
+# How to Contribute to TLDR Pages
 
 The TLDR Pages project simplifies documentation for various command-line utilities. Contributing to this project is a great way to help others. Follow the steps below to contribute effectively and submit a proper pull request (PR).
 
-### **1. Fork and Clone the Repository**
+### 1. Fork and Clone the Repository
 
 1. **Fork the TLDR repository**:
    Go to the [TLDR Pages GitHub repository](https://github.com/tldr-pages/tldr) and click on **Fork** at the top-right corner of the page.
@@ -20,7 +16,7 @@ The TLDR Pages project simplifies documentation for various command-line utiliti
 
 ---
 
-### **2. Create a New Branch for Your Changes**
+### 2. Create a New Branch for Your Changes
 
 Before making any changes, create a new branch to keep your work organized and separate from the main branch.
 
@@ -31,7 +27,7 @@ git checkout -b add-audit2allow-page
 
 ---
 
-### **3. Write or Update a Command Page**
+### 3. Write or Update a Command Page
 
 1. **Find the correct directory**: Navigate to the appropriate directory depending on the platform the command applies to (`linux`, `osx`, `windows`, etc.). For example:
    ```bash
@@ -48,7 +44,7 @@ git checkout -b add-audit2allow-page
    - A link to official documentation.
    - At most 8 examples of how to use the command.
 
-#### **Example**:
+#### Example:
 
 ```markdown
 # audit2allow
@@ -71,7 +67,7 @@ git checkout -b add-audit2allow-page
 
 ---
 
-### **4. Lint the Page**
+### 4. Lint the Page
 
 Before committing, run the TLDR linter to ensure the page meets the required formatting and syntax.
 
@@ -89,7 +85,7 @@ If there are no errors, you can proceed. If errors appear, fix them and re-run t
 
 ---
 
-### **5. Commit and Push Your Changes**
+### 5. Commit and Push Your Changes
 
 Once your changes are complete and verified with the linter, commit the changes:
 
@@ -110,7 +106,7 @@ Once your changes are complete and verified with the linter, commit the changes:
 
 ---
 
-### **6. Create a Pull Request (PR)**
+### 6. Create a Pull Request (PR)
 
 After pushing your branch, go to your repository on GitHub. You should see a notification to create a pull request (PR) for your new branch.
 
@@ -146,7 +142,7 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 
 ---
 
-### **7. Submit the PR and Respond to Feedback**
+### 7. Submit the PR and Respond to Feedback
 
 After submitting the PR, the TLDR maintainers will review your changes. They may ask for adjustments. Be sure to respond to any feedback and make the necessary changes.
 
@@ -162,7 +158,7 @@ After submitting the PR, the TLDR maintainers will review your changes. They may
 
 ---
 
-### **Additional Resources**:
+### Additional Resources:
 
 - **TLDR Contributing Guidelines**: Follow the official [contributing guide](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md).
 - **Using TLDR Lint**: [TLDR Lint](https://github.com/tldr-pages/tldr-lint) helps ensure that pages meet formatting requirements.
