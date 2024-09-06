@@ -2,6 +2,17 @@
 
 The TLDR Pages project simplifies documentation for various command-line utilities. Contributing to this project is a great way to help others. Follow the steps below to contribute effectively and submit a proper pull request (PR).
 
+### Prerequisite: Sign the CLA (Contributor License Agreement)
+
+Before contributing, you'll need to sign the TLDR CLA. Here are the steps:
+1. **Go to the CLA page**: Visit the [CLA page](https://cla-assistant.io/tldr-pages/tldr).
+2. **Agree to the CLA**: Click on the **"I Agree"** button.
+3. **Authorize with your GitHub account**: Follow the authorization steps to sign the agreement.
+
+![CLA PAGE](https://github.com/user-attachments/assets/bb40868e-8591-4deb-b30d-7c923db33389)
+
+Once this is done, you're ready to contribute!
+
 ### 1. Fork and Clone the Repository
 
 1. **Fork the TLDR repository**:
@@ -162,3 +173,4 @@ After submitting the PR, the TLDR maintainers will review your changes. They may
 
 - **TLDR Contributing Guidelines**: Follow the official [contributing guide](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md).
 - **Using TLDR Lint**: [TLDR Lint](https://github.com/tldr-pages/tldr-lint) helps ensure that pages meet formatting requirements.
+
