@@ -144,7 +144,8 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 ```
 
 **Example**:
-![PR Example](file-1J43HwODCyyRWPOeysvSgf7r)
+![PR Example](https://github.com/user-attachments/assets/24526dbd-216b-4749-a6d4-fdd39b3b6db1)
+
 
 ---
 
@@ -168,28 +169,5 @@ After submitting the PR, the TLDR maintainers will review your changes. They may
 
 - **TLDR Contributing Guidelines**: Follow the official [contributing guide](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md).
 - **Using TLDR Lint**: [TLDR Lint](https://github.com/tldr-pages/tldr-lint) helps ensure that pages meet formatting requirements.
-
----
-
-### **Example Final PR**:
-
-Here’s how a completed PR might look with all the boxes checked and the version number included:
-
-```markdown
-<!--
-Thank you for contributing!
-Please fill in the following checklist, removing items that do not apply.
-See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
--->
-
-- [x] The page(s) are in the correct platform directories: `linux`.
-- [x] The page(s) have at most 8 examples.
-- [x] The page description(s) have links to documentation or a homepage.
-- [x] The page(s) follow the [content guidelines](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).
-- [x] The PR title conforms to the recommended [templates](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message-and-pr-title).
-- **Version of the command being documented (if known): audit2allow .1**
-```
-
----
 
 By following these steps, you can contribute effectively to TLDR, helping simplify command-line documentation for everyone! Let me know if you need further clarification.
