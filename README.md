@@ -57,19 +57,16 @@ git checkout -b add-audit2allow-page
 > More information: <https://man7.org/linux/man-pages/man1/audit2allow.1.html>.
 
 - Generate and install a local policy to allow access for all denied services:
-  ```bash
-  sudo audit2allow --all -M {{local_policy_name}} && sudo semodule -i {{local_policy_name}}.pp
-  ```
+
+`sudo audit2allow --all -M {{local_policy_name}} && sudo semodule -i {{local_policy_name}}.pp`
 
 - Generate and install a local policy module to grant access to a specific service from the audit logs:
-  ```bash
-  sudo grep {{apache2}} /var/log/audit/audit.log | sudo audit2allow -M {{local_policy_name}} && sudo semodule -i {{local_policy_name}}.pp
-  ```
+
+`sudo grep {{apache2}} /var/log/audit/audit.log | sudo audit2allow -M {{local_policy_name}} && sudo semodule -i {{local_policy_name}}.pp`
 
 - View the Type Enforcement (.te) file for a local policy:
-  ```bash
-  cat {{local_policy_name}}.te
-  ```
+
+`cat {{local_policy_name}}.te`
 ```
 
 ---
