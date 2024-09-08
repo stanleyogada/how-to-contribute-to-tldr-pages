@@ -174,3 +174,10 @@ After submitting the PR, the TLDR maintainers will review your changes. They may
 - **TLDR Contributing Guidelines**: Follow the official [contributing guide](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md).
 - **Using TLDR Lint**: [TLDR Lint](https://github.com/tldr-pages/tldr-lint) helps ensure that pages meet formatting requirements.
 
+---
+
+One of my PRs was merged after 2 days of reviewing and changes
+
+<img width="1680" alt="image" src="https://github.com/user-attachments/assets/f364cc86-3a8b-4b21-ac3b-9f65b7082c9d">
+
+
